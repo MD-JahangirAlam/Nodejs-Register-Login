@@ -1,0 +1,35 @@
+{
+  "name": "server-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD-JahangirAlam/Nodejs-Register-Login.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "MD Jahangir alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MD-JahangirAlam/Nodejs-Register-Login/issues"
+  },
+  "homepage": "https://github.com/MD-JahangirAlam/Nodejs-Register-Login#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
